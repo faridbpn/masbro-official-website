@@ -1,0 +1,208 @@
+
+* {
+    font-family: poppins;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F1532D;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    margin-right: auto;
+    display: inline;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    height: 30px;
+    width: 10px;
+    font-weight: 100px;
+    margin-top: 60px;
+    margin-left: 36rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.main-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 3rem;
+}
+
+#hero {
+    height: 820px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#p {
+    color: #000;
+
+font-family: Poppins;
+font-size: 1.25rem;
+font-weight: 400;
+}
+
+.hero-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0.5rem 5 1 rem;
+}
+
+.hero-name span {
+    color: #F1532D;
+}
+
+.pre-title span {
+    color: #F1532D;
+}
+
+.hero-right img{
+    display: flex;
+    justify-content: first baseline;
+    left: 51.8%;
+    width: 600px;
+    height: 350px;
+    margin-right: 3rem;
+}
+
+.hero-right,
+.hero-left {
+    margin-top: 10rem;
+}
+
+.population {
+    margin-top: 3rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+}
+
+.population span {
+    margin-right: 3rem;
+}
+
+.jumlah-masbro {
+    color: #F1532D;
+text-align: start;
+font-family: Poppins;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.deskripsi {
+    margin-top: 3rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.descripsion {
+    margin-top: -6rem;
+}
+
+.fun-fact img {
+    margin-top: 8rem;
+    margin-left: 4.5rem;
+    width: 71.0625rem;
+    height: 31.6875rem;
+} 
+
+/* habbit */
+
+.title-habbit {
+    margin-top: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 80px;
+}
+
+.habbit1 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.habit-setunggal {
+    width: 400px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+.habbit1 img {
+    margin-right: 3rem;
+}
+
+/* habbit 2 */
+.habbit2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.habbit2 {
+    margin-left: 5rem;
+}
+
+.habit-kale {
+    width: 400px;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+/* habbit3 */
+
+.habbit3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.habit-tigo {
+    width: 400px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+#mantap {
+    margin-left: 3rem;
+}
+
+.title-habbits {
+    text-decoration: dashed;
+    text-align: end;
+    margin-right: 3rem;
+    text-transform: capitalize;
+}
+
+.habit-sekawan {
+    width: 400px;
+    margin-right: 7rem;
+    margin-top: 5rem;
+}
+
+.habit-gangsal {
+    width: 400px;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+#bang {
+    margin-left: 20rem;
+    margin-top: 10rem;
+    font-size: xx-large ;
+}
